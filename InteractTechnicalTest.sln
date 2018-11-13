@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteractTechnicalTest", "InteractTechnicalTest\InteractTechnicalTest.csproj", "{F8CFE4C9-880E-4C0B-A8E8-63B37A1632AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{F4F12192-23FF-48ED-A828-7B24F6A0AC83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{573E8A32-F040-4AA5-9AAB-37D71FFC5840}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InteractTechnicalTestDomain", "InteractTechnicalTestDomain\InteractTechnicalTestDomain.csproj", "{5AD25065-C9D4-4AB7-87D1-621E87475D19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InteractTechinicalTestInfrastructure", "InteractTechinicalTestInfrastructure\InteractTechinicalTestInfrastructure.csproj", "{D8713228-1785-44D2-8EB8-75BB53906F3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteractTechnicalTestInfrastructureTests", "InteractTechnicalTestInfrastructureTests\InteractTechnicalTestInfrastructureTests.csproj", "{53737EE2-F3A2-4803-8CAA-B5E3D9F62788}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8CFE4C9-880E-4C0B-A8E8-63B37A1632AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CFE4C9-880E-4C0B-A8E8-63B37A1632AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8CFE4C9-880E-4C0B-A8E8-63B37A1632AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8CFE4C9-880E-4C0B-A8E8-63B37A1632AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD25065-C9D4-4AB7-87D1-621E87475D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD25065-C9D4-4AB7-87D1-621E87475D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD25065-C9D4-4AB7-87D1-621E87475D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD25065-C9D4-4AB7-87D1-621E87475D19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8713228-1785-44D2-8EB8-75BB53906F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8713228-1785-44D2-8EB8-75BB53906F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8713228-1785-44D2-8EB8-75BB53906F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8713228-1785-44D2-8EB8-75BB53906F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53737EE2-F3A2-4803-8CAA-B5E3D9F62788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53737EE2-F3A2-4803-8CAA-B5E3D9F62788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53737EE2-F3A2-4803-8CAA-B5E3D9F62788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53737EE2-F3A2-4803-8CAA-B5E3D9F62788}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5AD25065-C9D4-4AB7-87D1-621E87475D19} = {F4F12192-23FF-48ED-A828-7B24F6A0AC83}
+		{D8713228-1785-44D2-8EB8-75BB53906F3B} = {573E8A32-F040-4AA5-9AAB-37D71FFC5840}
+		{53737EE2-F3A2-4803-8CAA-B5E3D9F62788} = {573E8A32-F040-4AA5-9AAB-37D71FFC5840}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B08E495-F639-49F5-8F14-26B9EC30010A}
+	EndGlobalSection
+EndGlobal
