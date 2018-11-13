@@ -3,7 +3,9 @@
 # Project Structure
 
 `/InteractTechnicalTest` contains the startup web project
+
 * `/InteractTechnicalTest/app_root` contains the front-end elements that need to be built seperately
+
 `/InteractTechnicalTestDomain` contains all domain elements, such as POCOs
 `/InteractTechinicalTestInfrastructure` contains all infrastructure code, such as database contexts and repositories
 `/InteractTechnicalTestInfrastructureTests` contains tests for infrastructure code
