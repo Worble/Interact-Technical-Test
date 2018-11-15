@@ -4,7 +4,7 @@
 
 `/InteractTechnicalTest` contains the startup web project
 
-* `/InteractTechnicalTest/app_root` contains the front-end elements that need to be built seperately
+* `/InteractTechnicalTest/app_root` contains the front-end elements to be built seperately
 
 `/InteractTechnicalTestDomain` contains all domain elements, such as POCOs
 
@@ -14,7 +14,7 @@
 
 # Building From Source
 
-* Navigate to `/InteractTechnicalTest` and run `dotnet build` to build the web project. This should also copy the two test databases `products_litedb.db` and `products_sqlite.db` from the root to the bin folder. You can switch between using these two by commenting and uncommenting the dependency resolution for Unity in `\InteractTechnicalTest\App_Start\UnityConfig.cs`.
+* Build `InteractTechnicalTest.sln` with Visual Studio. This should also copy the two test databases `products_litedb.db` and `products_sqlite.db` from the root to the bin folder. You can switch between using these two by commenting and uncommenting the dependency resolution for Unity in `\InteractTechnicalTest\App_Start\UnityConfig.cs`.
 
 * Navigate to `/InteractTechnicalTest/app_root`. Run `yarn` or `npm i` to install dependencies.
     * Run `yarn dev` or `npm run dev` to create an unoptimized build.
